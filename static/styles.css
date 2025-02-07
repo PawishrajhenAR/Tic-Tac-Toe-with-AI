@@ -1,0 +1,134 @@
+/* General body styling */
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(37, 205, 11);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+/* Styling the page heading */
+h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Styling the buttons */
+button {
+    background-color: #008CBA; /* Blue background */
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #005f6b; /* Darker shade of blue */
+    transform: scale(1.1); /* Slight scaling effect */
+}
+
+/* Disabled button styling */
+button:disabled {
+    background-color: #c21313;
+    cursor: not-allowed;
+}
+
+/* Board styling */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    padding: 20px;
+}
+
+/* Cell styling */
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px; /* Larger font size for better visibility */
+    border: 2px solid #090101;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+/* Cell hover effect */
+.cell:hover {
+    background-color: rgba(6, 1, 1, 0.9);
+}
+
+/* Styling for X and O symbols */
+.cell.X {
+    color: #e74c3c; /* Red for X */
+    font-weight: bold;
+}
+
+.cell.O {
+    color: #2ecc71; /* Green for O */
+    font-weight: bold;
+}
+
+/* Message styling for the winner */
+#winnerMessage {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+/* Styling for the reset and go back buttons */
+#resetGame, #goBackButton {
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .board {
+        grid-template-columns: repeat(3, 80px);
+    }
+
+    button {
+        padding: 12px 25px;
+    }
+
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .board {
+        grid-template-columns: repeat(3, 60px);
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    .cell {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+}
