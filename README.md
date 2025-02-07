@@ -19,15 +19,6 @@ JavaScript – Game logic, AI moves, and event handling.
 4️⃣ The game announces a winner or draw when the board is full.
 5️⃣ Click "Reset" to start a new match.
 
-📂 Project Structure
-
-/tic-tac-toe-ai
-│── /static
-│   │── styles.css  # Game styling
-│   │── script.js   # Game logic
-│── index.html      # Main game page
-│── README.md       # Project documentation
-
 🚀 Setup Instructions
 1️⃣ Clone the repository:
 git clone https://github.com/your-username/tic-tac-toe-ai.git
