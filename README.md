@@ -21,7 +21,7 @@ JavaScript – Game logic, AI moves, and event handling.
 
 🚀 Setup Instructions
 1️⃣ Clone the repository:
-git clone https://github.com/your-username/tic-tac-toe-ai.git
+gh repo clone PawishrajhenAR/Tic-Tac-Toe-with-AI
 2️⃣ Open index.html in your browser.
 3️⃣ Enjoy the game! 🎉
 
