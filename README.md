@@ -28,6 +28,7 @@ gh repo clone PawishrajhenAR/Tic-Tac-Toe-with-AI
 🤖 AI Logic
 The AI follows a simple strategy:
 
+
 It picks a random empty spot on the board.
 Future improvements may include Minimax Algorithm for a smarter AI.
 📌 To-Do List
