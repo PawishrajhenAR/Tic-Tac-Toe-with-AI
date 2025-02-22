@@ -26,7 +26,7 @@ gh repo clone PawishrajhenAR/Tic-Tac-Toe-with-AI
 3️⃣ Enjoy the game! 🎉
 
 🤖 AI Logic
-The AI follows a simple strategy:
+The AI follows a simple strategy in this project
 
 
 It picks a random empty spot on the board.
