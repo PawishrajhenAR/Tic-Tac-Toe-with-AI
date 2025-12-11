@@ -37,3 +37,39 @@ A simple and interactive Tic-Tac-Toe game built using **HTML, CSS, and JavaScrip
 1. Clone the repository:
    ```bash
    gh repo clone PawishrajhenAR/Tic-Tac-Toe-with-AI
+2. Open index.html in any browser
+   Start playing.
+
+---
+
+AI Logic:
+
+The AI currently uses a random-move selection strategy, choosing from available empty cells.
+
+---
+
+Future enhancements may include:
+
+Implementing the Minimax algorithm for a smarter AI.
+
+---
+
+To-Do List
+
+Improve AI intelligence.
+
+Add sound effects for moves.
+
+Implement online multiplayer support.
+
+---
+
+Contributing
+
+Contributions are welcome. Fork the repository, create a new branch, and submit a pull request with improvements or new features.
+
+---
+
+License
+
+This project is licensed under the MIT License.
