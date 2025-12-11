@@ -1,45 +1,67 @@
-Tic-Tac-Toe with AI 🎮🤖
-This is a Tic-Tac-Toe game that allows you to play against a friend or challenge an AI opponent. Built using HTML, CSS, and JavaScript, this game provides an interactive and visually appealing experience.
+Tic-Tac-Toe with AI
 
-🚀 Features
-✅ Play with Friend Mode – Two players can take turns on the same device.
-✅ Play with AI Mode – Challenge a basic AI opponent.
-✅ Responsive Design – Works well on both desktop and mobile devices.
-✅ Styled UI – Smooth animations, improved visuals, and a dynamic background.
-✅ Win Detection & Reset – The game detects a win, a draw, and allows restarting.
+A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. You can play with a friend or challenge an AI opponent. The interface is clean, responsive, and easy to use.
 
-🛠️ Technologies Used
-HTML – Structure of the game.
-CSS – Styling and layout enhancements.
-JavaScript – Game logic, AI moves, and event handling.
-🎮 How to Play?
-1️⃣ Click "Play with Friend" to start a local two-player game.
-2️⃣ Click "Play with AI" to compete against an AI.
-3️⃣ Players take turns placing X and O on the grid.
-4️⃣ The game announces a winner or draw when the board is full.
-5️⃣ Click "Reset" to start a new match.
+Features
 
-🚀 Setup Instructions
-1️⃣ Clone the repository:
+Play with Friend Mode – Two players can play on the same device.
+
+Play with AI Mode – Challenge a basic AI opponent.
+
+Responsive Design – Works on desktop and mobile.
+
+Styled UI – Smooth animations and enhanced visuals.
+
+Win Detection & Reset – Automatically detects wins, draws, and supports quick restart.
+
+Technologies Used
+
+HTML – Structure
+
+CSS – Styling and layout
+
+JavaScript – Game logic, AI moves, event handling
+
+How to Play
+
+Select Play with Friend for a two-player mode.
+
+Select Play with AI to play against the computer.
+
+Players take turns placing X or O.
+
+The game announces a winner or a draw.
+
+Click Reset to start a new match.
+
+Setup Instructions
+
+Clone the repository:
+
 gh repo clone PawishrajhenAR/Tic-Tac-Toe-with-AI
-2️⃣ Open index.html in your browser.
-3️⃣ Enjoy the game! 🎉
-
-🤖 AI Logic
-The AI follows a simple strategy in this project
 
 
-It picks a random empty spot on the board.
-Future improvements may include Minimax Algorithm for a smarter AI.
-📌 To-Do List
-🔹 Improve AI to make it smarter.
-🔹 Add sound effects for moves.
-🔹 Implement multiplayer over the internet.
+Open index.html in your browser.
 
-🏆 Contributing
-Feel free to fork this repository and submit pull requests! Any improvements, bug fixes, or feature additions are welcome.
+Start playing.
 
-📜 License
+AI Logic
+
+The current AI uses a simple random-move strategy, selecting a random empty cell.
+Future upgrades may include implementing the Minimax algorithm to create a smarter, unbeatable AI.
+
+To-Do List
+
+Enhance AI logic.
+
+Add sound effects for moves.
+
+Implement online multiplayer.
+
+Contributing
+
+Contributions are welcome. Feel free to fork the repository, create a branch, and submit a pull request.
+
+License
+
 This project is open-source and available under the MIT License.
-
-🎮 Enjoy your game! 🚀
